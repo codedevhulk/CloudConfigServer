@@ -1,0 +1,22 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          # Rajesh use this
+          uri: https://github.com/codedevhulk/rajesh-configServerUsingOracleDb
+          
+          # Abhishek use this
+          #uri: https://github.com/codedevhulk/abhishek-configServerUsingMySqlDB
+          
+          # Raj kumar use this
+          #uri: https://github.com/codedevhulk/rajkumar-configSeverUsingMySqlDb
+          clone-on-start: true  
+          
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+      
