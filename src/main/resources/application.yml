@@ -13,6 +13,9 @@ spring:
           #uri: https://github.com/codedevhulk/rajkumar-configSeverUsingMySqlDb
           clone-on-start: true  
           
+          #People who use H2 use this
+          #uri: https://github.com/codedevhulk/configServerUsingH2DB
+          
 eureka:
   client:
     register-with-eureka: true
